@@ -1,0 +1,24 @@
+GET http://localhost:3000/subscribers
+
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Lets Go",
+    "subscribedToChannel": "Curious Minds"
+}
+
+### 
+DELETE http://localhost:3000/subscribers/610b3f294097b561bd3ab2be
+
+
+###
+PATCH http://localhost:3000/subscribers/610b423870eb9a63cba9b453
+Content-Type: application/json
+
+{
+    "name": "Tom Stu"
+}
